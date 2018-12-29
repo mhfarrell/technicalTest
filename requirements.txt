@@ -1,4 +1,6 @@
-tornado
-websockets
-mongodb
-python
+python 3.6.4
+flask 1.0.2
+flask-pymongo 2.2.0
+pymongo 3.7.2
+
+
