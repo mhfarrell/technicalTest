@@ -114,7 +114,7 @@
 										<form class="row" action="/search" method="POST">
 											<div class="col-md-4">
 											   <div class="form-group">
-												  <select name="carMake" id="inputState" class="form-control selectpicker">
+												  <select required name="carMake" id="inputState" class="form-control selectpicker">
 													<option selected>... Select Make...</option>
 													{% for make in make -%}
 														<option value="{{ make }}">{{ make }}</option>
@@ -124,7 +124,7 @@
 											</div>				
 											<div class="col-md-4">
 											   <div class="form-group">
-												  <select name="carModel" id="inputState" class="form-control selectpicker">
+												  <select required name="carModel" id="inputState" class="form-control selectpicker">
 													<option selected>... Select Model...</option>
 													{% for model in model -%}
 														<option value="{{ model }}">{{ model }}</option>
@@ -134,7 +134,7 @@
 											</div>
 											<div class="col-md-4">
 											   <div class="form-group">
-												  <select name="carYear" id="inputState" class="form-control">
+												  <select required name="carYear" id="inputState" class="form-control">
 													<option selected>... Select Year...</option>
 													{% for year in year -%}
 														<option value="{{ year }}">{{ year }}</option>
