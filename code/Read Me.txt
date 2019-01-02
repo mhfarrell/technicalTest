@@ -1,0 +1,7 @@
+ On windows
+$ set FLASK_APP=carsearch.py
+$ flask run
+
+ On Linux
+$ export FLASK_APP=hello.py
+$ flask run
